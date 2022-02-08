@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+}
+
+#titleContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#title {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.imgClass {
+	width: 200px;
+	border-radius: 20px;
+	border: solid 3px white;
+}
+.gifHolder {
+	margin: 10px;
+}
+#gifSpace {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#submitBtn {
+	font-family: 'Montserrat', sans-serif;
+	border: solid 2px gray;
+	border-radius: 5px;
+}
+#removeImg {
+	font-family: 'Montserrat', sans-serif;
+	border: solid 2px gray;
+	border-radius: 5px;
+}
+#search {
+	font-family: 'Montserrat', sans-serif;
+	border: solid 2px gray;
+	border-radius: 5px;
+}
